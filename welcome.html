@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Event Bliss</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .event-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 32px;
+            margin: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .event-button:hover {
+            background-color: #45a049;
+        }
+        .logout-button {
+            background-color: #f44336;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .logout-button:hover {
+            background-color: #d32f2f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">Event Bliss</h1>
+        <p class="tagline">Connect, Collaborate, Celebrate: Your Event Planning Made Easy</p>
+        <p>Please select an event to vote for.</p>
+        <div class="button-container">
+            <button class="event-button" onclick="window.location.href='teambuilding.html'">Teambuilding</button>
+            <button class="event-button" onclick="window.location.href='workshop.html'">Workshop</button>
+            <button class="event-button" onclick="window.location.href='teamgathering.html'">Team Gathering</button>
+        </div>
+        <div class="button-container">
+            <button class="logout-button" onclick="window.location.href='index.html'">Logout</button>
+        </div>
+    </div>
+</body>
+</html>

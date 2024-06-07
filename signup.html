@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Event Bliss</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="signup">
+        <h1 class="form-title">Sign Up</h1>
+        <form method="post" action="register.php">
+            <div class="input-group">
+                <label for="firstName">First Name</label>
+                <input type="text" name="nume" id="firstName" placeholder="First Name" required>
+            </div>
+            <div class="input-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" name="prenume" id="lastName" placeholder="Last Name" required>
+            </div>
+            <div class="input-group">
+                <label for="team">Team</label>
+                <input type="text" name="echipa" id="team" placeholder="Team" required>
+            </div>
+            <div class="input-group">
+                <label for="department">Department</label>
+                <input type="text" name="departament" id="department" placeholder="Department" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password" required>
+            </div>
+            <input type="submit" class="btn" value="Sign Up">
+        </form>
+    </div>
+</body>
+</html>

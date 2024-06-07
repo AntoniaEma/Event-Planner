@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teambuilding Events</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">Teambuilding Events</h1>
+        <p>Below are the available teambuilding events:</p>
+        <form method="post" action="submit_participation.php">
+            <label for="event">Select Event:</label>
+            <select name="event" id="event">
+                <option value="1">Mountain Retreat - Carpathian Mountains - 2024-07-15</option>
+                <option value="2">Beach Getaway - Black Sea Coast - 2024-08-20</option>
+            </select>
+            <p>Are you participating?</p>
+            <input type="radio" id="yes" name="participation" value="Da">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="participation" value="Nu">
+            <label for="no">No</label>
+            <input type="hidden" name="tip_eveniment" value="Teambuilding">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
